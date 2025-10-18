@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+
+/* header and navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 0px 2px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    /* position: fixed;
+    min-width: 100%;
+    z-index: 10; */
+}
+
+.nav-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-title {
+    color: #0056D2;
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-style: normal;
+    letter-spacing: -1px ;
+    margin-top: -5px;
+}
+.header-icon {
+    margin-right: 10px;
+    color:#5B6780;   
+}
+
+/* hero section */
+
+.hero {
+    background-color: #F0F6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+    /* position: relative;
+    top: 4rem; */
+}
+
+.hero-img-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+}
+
+.hero-logo-img {
+    height: auto;
+    width: 200px;
+    padding: 3px;
+    object-fit: cover;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+.mt-15 {
+    margin: 15px auto;
+}
+
+.hero-button {
+  min-width: 100%;
+  display: block;
+}
+
+.hero-button > button {
+    min-width: 100%;
+    padding: 15px 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0056D2;
+    color: #ffffff;
+    margin: 20px auto;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.color-blue {
+    color:#0056D2;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-big-img {
+    height: 250px;
+    width: auto;
+}
+
+/* about section */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.uni-companies-img {
+    height: 50px;
+    width: auto;
+}
+
+
+
