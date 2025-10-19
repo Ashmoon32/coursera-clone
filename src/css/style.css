@@ -91,6 +91,7 @@ header {
     margin: 20px auto;
     font-size: 1rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .color-blue {
@@ -107,16 +108,23 @@ header {
 
 /* about section */
 
-.about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
 .uni-companies-img {
     height: 50px;
-    width: auto;
+    width: 80px;
+}
+
+.about-img-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-title {
+    text-align: left;
+    margin: 10px;
+    font-weight: 600;
 }
 
 
